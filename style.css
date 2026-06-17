@@ -1,0 +1,23 @@
+/* Body background with a nice gradient */
+body {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    font-family: 'Segoe UI', sans-serif;
+}
+/* Card glass effect */
+.weather-card {
+    background: rgba(255, 255, 255, 0.95);
+    backdrop-filter: blur(10px);
+    transition: transfrom 0.3s ease;
+}
+.weather-card:hover {
+    transfrom: translateY(-5px);
+}
+/* Input and Button styling */
+input:focus {
+    outline: none;
+    border-color: #667eea;
+}
+button:active {
+    transform: scale(0.98);
+
+}
